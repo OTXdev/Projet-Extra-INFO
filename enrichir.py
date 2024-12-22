@@ -61,3 +61,4 @@ ecrire3(md, 'infos3.txt')
 #fin
 listeEXT = sorted(set(listeEXT) | ancien_dict)
 ecrire_fichier('subst.dic', listeEXT)
+print('files created.')
